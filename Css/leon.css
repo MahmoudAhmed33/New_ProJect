@@ -276,7 +276,7 @@ line-height: var(--line-height);
     position: absolute;
     top: -50px;
     right: -20px;
-    height: calc(100% + 100px);
+    height: calc(100% + 80px);
     width: 47px;
 }
 .services .services-content  .top-right,.bottom-right {
@@ -297,8 +297,8 @@ line-height: var(--line-height);
     height: 47px;
     background-color: var(--secondary-color);
     position: absolute;
-    bottom: -50px;
-    right: -355px;
+    bottom: -47px;
+    right: -357px;
 }
 @media (max-width: 1199px) {
     .image-column {

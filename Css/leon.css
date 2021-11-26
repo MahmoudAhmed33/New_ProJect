@@ -291,7 +291,7 @@ line-height: var(--line-height);
     height: 37px;
     background-color: var(--secondary-color);
     position: absolute;
-    top: -404px;
+    top: -405px;
     right: -355px;
 }
 .services .services-content  .bottom-right::before {
@@ -432,7 +432,7 @@ line-height: var(--line-height);
     height: 30px;
     background-color: var(--main-color);
     position: absolute;
-    top: -391px;
+    top: -390px;
     right: 16px;
 }
 .about .about-content  .bottom-right::before {

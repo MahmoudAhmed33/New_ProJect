@@ -46,7 +46,7 @@ body {
 
 @media (min-width: 1200px) {
     .container {
-        width: 1000px;
+        width: 1090px;
     }
 }
 /* End Global Rules */
@@ -299,7 +299,7 @@ line-height: var(--line-height);
     background-color: var(--secondary-color);
     position: absolute;
     bottom: -47px;
-    right: -356px;
+    right: -357px;
 }
 @media (max-width: 1199px) {
     .image-column {

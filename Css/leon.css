@@ -53,7 +53,7 @@ body {
 /* Start Components */
 .special-heading{
     color: #ebeced;
-    font-size: 111px;
+    font-size: 120px;
     text-align: center;
     font-weight: 800;
     letter-spacing: -3px;
@@ -114,7 +114,7 @@ body {
     width: 100%;
 }
 .header .links .icon span:nth-child(2) {
-    height: 2px;
+    height: 2.14px;
     width: 60%;
     transition: .3s;
     -webkit-transition: .3s;
@@ -279,7 +279,7 @@ line-height: var(--line-height);
     top: -50px;
     right: -20px;
     height: calc(100% + 100px);
-    width: 32px;
+    width: 37px;
     z-index: -1;
 }
 .services .services-content  .top-right,.bottom-right {
@@ -291,12 +291,12 @@ line-height: var(--line-height);
     height: 37px;
     background-color: var(--secondary-color);
     position: absolute;
-    top: -405px;
+    top: -404px;
     right: -355px;
 }
 .services .services-content  .bottom-right::before {
     content: "";
-    width: 71px;
+    width: 72px;
     height: 35px;
     background-color: var(--secondary-color);
     position: absolute;
@@ -432,7 +432,7 @@ line-height: var(--line-height);
     height: 30px;
     background-color: var(--main-color);
     position: absolute;
-    top: -390px;
+    top: -391px;
     right: 16px;
 }
 .about .about-content  .bottom-right::before {

@@ -439,7 +439,7 @@ line-height: var(--line-height);
     height: 78px;
     background-color: var(--main-color);
     position: absolute;
-    bottom: 21px;
+    bottom: 22px;
     right: -107px;
 }
 .about .about-content  .top-left::before {

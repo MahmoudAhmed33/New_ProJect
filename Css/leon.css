@@ -299,7 +299,7 @@ line-height: var(--line-height);
     background-color: var(--secondary-color);
     position: absolute;
     bottom: -47px;
-    right: -357px;
+    right: -356px;
 }
 @media (max-width: 1199px) {
     .image-column {

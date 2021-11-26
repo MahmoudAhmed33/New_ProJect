@@ -22,7 +22,8 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 .container {
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -52,7 +53,7 @@ body {
 /* Start Components */
 .special-heading{
     color: #ebeced;
-    font-size: 120px;
+    font-size: 100px;
     text-align: center;
     font-weight: 800;
     letter-spacing: -3px;
@@ -64,25 +65,23 @@ body {
     text-align: center;
     color:#646565;
 }
-
 /* Mobile */
+
 @media (max-width: 767px) {
     .special-heading {
-        font-size: 80px;
+        font-size: 60px;
     }
     .special-heading + p {
         margin-top:-20px;
     }
-    .container {
+    container {
         overflow-x: hidden;
     }
 }
 /* End Components */
 /* Start Header */
 .header {
-    padding-top: 12px;
-    padding-bottom: 5px;
-    
+    padding: 20px;
 }
 .header .container {
     display: flex;
@@ -278,16 +277,15 @@ line-height: var(--line-height);
     top: -50px;
     right: -20px;
     height: calc(100% + 100px);
-    width: 37px;
-    z-index: -1;
+    width: 47px;
 }
 .services .services-content  .top-right,.bottom-right {
     position: relative;
 }
 .services .services-content  .top-right::before {
     content: "";
-    width: 65px;
-    height: 37px;
+    width: 74px;
+    height: 40px;
     background-color: var(--secondary-color);
     position: absolute;
     top: -404px;
@@ -295,8 +293,8 @@ line-height: var(--line-height);
 }
 .services .services-content  .bottom-right::before {
     content: "";
-    width: 72px;
-    height: 35px;
+    width: 77px;
+    height: 47px;
     background-color: var(--secondary-color);
     position: absolute;
     bottom: -50px;
@@ -431,7 +429,7 @@ line-height: var(--line-height);
     height: 30px;
     background-color: var(--main-color);
     position: absolute;
-    top: -391px;
+    top: -390px;
     right: 16px;
 }
 .about .about-content  .bottom-right::before {

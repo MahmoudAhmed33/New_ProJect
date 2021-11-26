@@ -81,7 +81,8 @@ body {
 /* End Components */
 /* Start Header */
 .header {
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 .header .container {
     display: flex;

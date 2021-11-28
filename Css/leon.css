@@ -258,6 +258,10 @@ padding-bottom: 31.20px
         padding-bottom: 8.21px
         }
 }
+@media (min-width: 1200px) {
+    .services .services-content .srv1 {
+        padding-bottom: 28.23px
+        }
 .services .services-content .srv i {
     color: var(--main-color);
     flex-basis: 60px;

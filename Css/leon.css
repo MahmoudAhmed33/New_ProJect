@@ -250,14 +250,6 @@ margin-bottom: 40px;
         text-align: center;
     }
 }
-.services .services-content .srv1 {
-padding-bottom: 31.20px
-}
-@media (min-width: 992px) {
-    .services .services-content .srv1 {
-        padding-bottom: 8.21px
-        }
-}
 .services .services-content .srv i {
     color: var(--main-color);
     flex-basis: 60px;

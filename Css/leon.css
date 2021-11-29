@@ -46,7 +46,7 @@ body {
 
 @media (min-width: 1200px) {
     .container {
-        width: 1075px;
+        width: 1110px;
     }
 }
 /* End Global Rules */
@@ -244,7 +244,31 @@ top: -20px;
 display: flex;
 margin-bottom: 40px;
 }
-@media (max-width: 767px) {
+@media (min-width: 1200px) {
+    .services .services-content {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(300px, 1fr));
+        grid-template-rows: repeat(2, minmax(100px, 1fr));
+        grid-gap: 30px;
+        margin-top: 80px;
+    }
+    .services .services-content .col1 {
+        grid-area: 1/1/2/2;
+    }
+    .services .services-content .col2 {
+        grid-area: 1/2/2/3;
+    }
+    .services .services-content .col5 {
+        grid-area: 1/3/3/4;
+    }
+    .services .services-content .col3 {
+        grid-area: 2/1/3/2;
+    }
+    .services .services-content .col4 {
+        grid-area: 2/2/3/3;
+    }
+}
+@media (max-width: 797px) {
     .services .services-content .srv {
         flex-direction: column;
         text-align: center;
@@ -287,14 +311,6 @@ line-height: var(--line-height);
     .image-column {
         display: none;
     }
-    .services .services-content  .top-right::before {
-        /* content: ""; */
-        display: none;
-    }
-    .services .services-content  .bottom-right::before {
-        display: none;
-    }
-    
 }
 /*End Services */
 /*Start Portfolio */
@@ -401,50 +417,6 @@ line-height: var(--line-height);
 .about-content .image img {
     max-width: 100%;
 }
-/* .about .about-content  .top-right,.bottom-right, .top-left, .bottom-left {
-    position: relative;
-} */
-/* @media(max-width:991px) {
-    .about .about-content  .top-right,.bottom-right, .top-left, .bottom-left {
-        display: none;
-    }
-} */
-/* .about .about-content  .top-right::before {
-    content: "";
-    width: 29px;
-    height: 30px;
-    background-color: var(--main-color);
-    position: absolute;
-    top: -390px;
-    right: 16px;
-}
-.about .about-content  .bottom-right::before {
-    content: "";
-    width: 75px;
-    height: 78px;
-    background-color: var(--main-color);
-    position: absolute;
-    bottom: 21px;
-    right: -107px;
-}
-.about .about-content  .top-left::before {
-    content: "";
-    width: 51px;
-    height: 33px;
-    background-color: #e8e8e8;
-    position: absolute;
-    top: -394px;
-    right: 199px;
-}
-.about .about-content  .bottom-left::before {
-    content: "";
-    background-color: #e8e8e8;
-    position: absolute;
-    bottom: -29px;
-    right: 199px;
-    width: 51px;
-    height: 33px;
-} */
 .about-content .text {
     /* flex-basis: calc(100% - 500px); */
     flex: 1;

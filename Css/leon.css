@@ -488,7 +488,7 @@ color: var(--paragraph-color);
 .footer {
     background-color: var(--secondary-color);
     color: white;
-    padding: 30px 10px 20px;
+    padding: 30px 10px 17px;
     text-align: center;
     font-size: 18px;
 }

@@ -9,5 +9,5 @@ The design is responsive to all screans
 The service section changed smoothly in small
 Screan
 # My_Name
-Mahmoud_Ahmed
-thanks
+mahmoud Ahmed
+

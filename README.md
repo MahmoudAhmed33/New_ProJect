@@ -11,5 +11,3 @@ Screan
 # My_Name
 Mahmoud_Ahmed
 thanks
-Udacity
-Elzero_web_school

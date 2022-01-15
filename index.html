@@ -220,5 +220,13 @@
     &copy;2021 <span>leon</span>All Rights Reserved
 </div>
 <!-- End Footer -->
+    <script>
+    let icon = document.querySelector('span.icon')
+    let ul = document.querySelector('ul')
+    ul.classList.add("none");
+    icon.onclick = function() {
+        ul.classList.toggle("none");
+    }
+</script>
 </body>
 </html>
